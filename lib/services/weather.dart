@@ -2,7 +2,7 @@ import 'location.dart';
 import 'networking.dart';
 
 String openWeatherMapURi = 'https://api.openweathermap.org/data/2.5/find';
-String apiKey = '5262bc90c06474ebf037241dd35a1d46';
+String apiKey = 'Your-Api-Key-For-open-weather-map';
 
 class WeatherModel {
   Future getCityWeather(cityName) async {
